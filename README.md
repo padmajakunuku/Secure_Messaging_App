@@ -1,14 +1,17 @@
+# 🔐 Secure Messaging System
 
-# Secure Messaging with Password-Protected AES Key
+A secure, encrypted messaging web application built with **Python** and **Streamlit**. 
+This project enables **multi-user messaging** using **AES encryption**, allowing users to register, authenticate, and exchange encrypted messages securely.
 
-## Features
-- Username/password login
-- AES‑symmetric encryption for messages/files
-- AES key encrypted via password (PBKDF2 + Fernet)
-- CLI interface
+## 🚀 Features
 
-## Installation
-```bash
-git clone <your-repo-url>
-cd secure_messaging
-pip install -r requirements.txt
+- 🔑 **User Registration & Authentication**
+- 🔐 **AES Encryption** for messages
+- 📁 **Encrypted Message Storage** (per user)
+- 🔓 **Decryption on login** using AES key derived from user password
+- 💬 **Streamlit-based UI** for intuitive messaging
+
+---
+
+
+
